@@ -28,9 +28,6 @@ export class AuthService {
     return this.httpClient.put('endpoint', data);
   }
 
-  deleteData(data) {
-    return this.httpClient.delete('endpint', data)
-  }
 
 
   onRegister(value) {
